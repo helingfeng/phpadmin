@@ -35,17 +35,6 @@ foreach ($hosts as $host) {
     $cfg['Servers'][$i]['AllowNoPassword'] = true;
 }
 /**
- * First server
- */
-$i++;
-/* Authentication type */
-$cfg['Servers'][$i]['auth_type'] = 'cookie';
-/* Server parameters */
-$cfg['Servers'][$i]['host'] = 'localhost1';
-$cfg['Servers'][$i]['compress'] = false;
-$cfg['Servers'][$i]['AllowNoPassword'] = false;
-
-/**
  * phpMyAdmin configuration storage settings.
  */
 
